@@ -22,3 +22,10 @@ variable "private_subnet_cidr_1" {
 variable "private_subnet_cidr_2" {
   type = string
 }
+
+variable "availability_zone_a" {
+  type = string
+}
+variable "availability_zone_b" {
+  type = string
+}
