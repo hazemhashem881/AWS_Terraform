@@ -1,5 +1,5 @@
 resource "aws_eip" "lb" {
-
+depends_on = [ aws_internet_gateway.gw ]
 }
 
 
