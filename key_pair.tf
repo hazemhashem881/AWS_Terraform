@@ -34,5 +34,5 @@ resource "aws_secretsmanager_secret_version" "public_key_value" {
 
 resource "local_file" "private-key" {
   content   = tls_private_key.private_key_pair.private_key_pem
-  filename = "public_key_pair.pem"
+  filename = "private_key_pair.pem"
 }
